@@ -14,7 +14,10 @@ Develop a database to analyse &amp; visualize hotel booking data
 5. Summarize Findings
 
 ### Data Sources
-Hotel Revenue Dataset for 2018,2019,2020 (hotel_revenue_historical_full-2.csv)
+Hotel Revenue Dataset for (2018, 2019, 2020) 
+- file : hotel_revenue_historical_full-2.csv
+- file : market_segment.csv
+- file : meal_cost.csv
 
 ### Tools
 - Python - Scripts to upload csv files to database
@@ -23,5 +26,21 @@ Hotel Revenue Dataset for 2018,2019,2020 (hotel_revenue_historical_full-2.csv)
 
 ## 1. Build a Database
 - I used the sqlalchemy python package to create all my tables in my postgres database
-    file : sql_alchemy.py
-- I used SQL(postgres) to create my queries
+    - file : sql_alchemy.py
+
+## 2. Develop the SQL Query
+- I wrote an SQL query to join the multiple tables I will need for the visualization
+  - file : hotel_dataset_full.sql
+ 
+## 3. Connect PowerBI to the Database
+- I imported the dataset from my postgres SQL server database using my previous SQL statement
+
+## 4. Visualize
+- I used PowerBI to create an interactive dashboard to visualize :
+    - Total Revenue
+    - Parking needed
+    - Revenue by time
+    - Revenue by hotel type
+    - Trends
+
+## 5. Summarize Findings
