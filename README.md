@@ -44,3 +44,6 @@ Hotel Revenue Dataset for (2018, 2019, 2020)
     - Trends
 
 ## 5. Summarize Findings
+- Is our hotel revenue growing by year?
+- Should we increase our parking lot size?
+- What trends can we see in the data?
